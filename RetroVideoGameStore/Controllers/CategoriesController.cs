@@ -26,7 +26,7 @@ namespace RetroVideoGameStore.Controllers
         {
                // Grabe the category name passed in with the URL
                ViewBag.categoryName = categoryName;
-            return View();
+            return View(); 
         }
     }
 }
