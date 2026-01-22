@@ -4,6 +4,7 @@
     ViewData["Title"] = "Categories";
 }
 <h1>Pick a category to browser our store</h1>
+<a asp-controller="Categories" asp-action="AddCategory">Add a new category</a>
 <ul>
     @foreach (var category in Model)
     {
